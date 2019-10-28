@@ -62,7 +62,7 @@ const RootQuery = new GraphQLObjectType({
                     .then(res => res.data);
             }
         },
-        //single launch
+        //single launchgit 
         launch: {
             type: LaunchType,
             args: {
